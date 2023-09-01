@@ -7,9 +7,76 @@
 
 import SwiftUI
 
+
 struct D1: View {
+    
+    @State private var givenAltura: String = "";
+    @State private var givenPeso: String = "";
+    @State private var givenImc: String = "";
+    @State private var bgColor = Color.white;
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            
+            bgColor
+                .ignoresSafeArea()
+                
+            VStack{
+                Text("Calculadora de IMC")
+                    .font(.title)
+                
+                TextField("Peso", text: $givenPeso)
+                    .multilineTextAlignment(.center)
+                
+                TextField("Altura", text: $givenAltura)
+                    .multilineTextAlignment(.center)
+                
+                
+                Button("Calcular") {
+                    
+                    let peso = Double(givenPeso) ?? 0.0
+                    let altura = Double(givenAltura) ?? 0.0
+                    
+                    let imc = peso / (altura * altura);
+                    
+                    if(imc < 18.5)
+                    {
+                        givenImc = "Baixo peso"
+                        bgColor = Color("baixopeso")
+                    }
+                    else if (imc > 18.5 && imc <= 24.99)
+                    {
+                        givenImc = "Normal"
+                        bgColor = Color("normal")
+                    }
+                    else if (imc > 25 && imc <= 29.99)
+                    {
+                        givenImc = "SobrePeso"
+                        bgColor = Color("sobrepeso")
+                    }
+                    else
+                    {
+                        givenImc = "Obesidade"
+                        bgColor = Color("obesidade")
+                    }
+                }
+                
+                Spacer()
+                
+                Text(givenImc)
+                    .foregroundColor(Color.white)
+                    .multilineTextAlignment(.center)
+                    .font(.title)
+                    
+                Spacer()
+                
+                Image("tabela-IMC")
+                    .renderingMode(.original)
+                    .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
+                    .aspectRatio(contentMode: .fit)
+            }
+        }
+    
     }
 }
 
