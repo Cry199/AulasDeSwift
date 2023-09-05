@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct NavigationTStack: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack
+        {
+            NavigationStack
+            {
+                NavigationLink("Ir para Tela 1") {
+                    NavigationStackTela1()
+                }
+                
+                NavigationLink("Ir para Tela 2") {
+                    NavigationStackTela2()
+                }
+                
+                NavigationLink("Ir para Tela 3") {
+                    NavigationStackTela3()
+                }
+            }
+        }
     }
+    
 }
-
 struct NavigationTStack_Previews: PreviewProvider {
     static var previews: some View {
         NavigationTStack()

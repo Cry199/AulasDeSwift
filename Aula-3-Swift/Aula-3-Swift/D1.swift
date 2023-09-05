@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct D1: View {
+    
+    let i = ["A List Item","A Second List Item","A List Item","1","2","3","2","3","2","3","2","3","2","3","A List Item","A Second List Item","A List Item"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        List(i, id: \.self) {
+            imageName in Text(imageName)
+                .font(.title)
+        }
     }
 }
 

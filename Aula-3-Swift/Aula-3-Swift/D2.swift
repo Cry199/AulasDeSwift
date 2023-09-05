@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct D2: View {
+    
+    let systemImages = ["gear", "clock", "eye","pencil","eye"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView
+        {
+            VStack {
+                  ForEach(systemImages, id: \.self) { imageName in
+                      Image(systemName: imageName)
+                          .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
+                          .frame(width: 300.0, height: 300.0)
+                  }
+            }
+        }
     }
 }
 

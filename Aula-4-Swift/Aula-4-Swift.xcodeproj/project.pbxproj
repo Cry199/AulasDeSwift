@@ -7,40 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3ECBE262AA64B9C00E8541D /* Aula_3_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE252AA64B9C00E8541D /* Aula_3_SwiftApp.swift */; };
-		F3ECBE282AA64B9C00E8541D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE272AA64B9C00E8541D /* ContentView.swift */; };
-		F3ECBE2A2AA64B9D00E8541D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3ECBE292AA64B9D00E8541D /* Assets.xcassets */; };
-		F3ECBE2D2AA64B9D00E8541D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3ECBE2C2AA64B9D00E8541D /* Preview Assets.xcassets */; };
-		F3ECBE3E2AA654EB00E8541D /* D1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE3D2AA654EB00E8541D /* D1.swift */; };
-		F3ECBE402AA655B700E8541D /* D2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE3F2AA655B700E8541D /* D2.swift */; };
-		F3ECBE422AA655D100E8541D /* D3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE412AA655D100E8541D /* D3.swift */; };
-		F3ECBE442AA65F5E00E8541D /* D4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE432AA65F5E00E8541D /* D4.swift */; };
-		F3ECBE462AA65F6800E8541D /* D5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE452AA65F6800E8541D /* D5.swift */; };
-		F3ECBE4A2AA662CC00E8541D /* NavigationTStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE492AA662CC00E8541D /* NavigationTStack.swift */; };
-		F3ECBE4C2AA6632B00E8541D /* NavigationStackTela1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE4B2AA6632B00E8541D /* NavigationStackTela1.swift */; };
-		F3ECBE4E2AA6685300E8541D /* NavigationStackTela2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE4D2AA6685300E8541D /* NavigationStackTela2.swift */; };
-		F3ECBE502AA6685E00E8541D /* NavigationStackTela3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ECBE4F2AA6685E00E8541D /* NavigationStackTela3.swift */; };
+		F3E3BB472AA79B3300F34AA7 /* Aula_4_SwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BB462AA79B3300F34AA7 /* Aula_4_SwiftApp.swift */; };
+		F3E3BB492AA79B3300F34AA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E3BB482AA79B3300F34AA7 /* ContentView.swift */; };
+		F3E3BB4B2AA79B3400F34AA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BB4A2AA79B3400F34AA7 /* Assets.xcassets */; };
+		F3E3BB4E2AA79B3400F34AA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E3BB4D2AA79B3400F34AA7 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F3ECBE222AA64B9C00E8541D /* Aula-3-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aula-3-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3ECBE252AA64B9C00E8541D /* Aula_3_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula_3_SwiftApp.swift; sourceTree = "<group>"; };
-		F3ECBE272AA64B9C00E8541D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		F3ECBE292AA64B9D00E8541D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F3ECBE2C2AA64B9D00E8541D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F3ECBE3D2AA654EB00E8541D /* D1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D1.swift; sourceTree = "<group>"; };
-		F3ECBE3F2AA655B700E8541D /* D2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D2.swift; sourceTree = "<group>"; };
-		F3ECBE412AA655D100E8541D /* D3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D3.swift; sourceTree = "<group>"; usesTabs = 0; };
-		F3ECBE432AA65F5E00E8541D /* D4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D4.swift; sourceTree = "<group>"; };
-		F3ECBE452AA65F6800E8541D /* D5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D5.swift; sourceTree = "<group>"; };
-		F3ECBE492AA662CC00E8541D /* NavigationTStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTStack.swift; sourceTree = "<group>"; };
-		F3ECBE4B2AA6632B00E8541D /* NavigationStackTela1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTela1.swift; sourceTree = "<group>"; };
-		F3ECBE4D2AA6685300E8541D /* NavigationStackTela2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTela2.swift; sourceTree = "<group>"; };
-		F3ECBE4F2AA6685E00E8541D /* NavigationStackTela3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTela3.swift; sourceTree = "<group>"; };
+		F3E3BB432AA79B3300F34AA7 /* Aula-4-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aula-4-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3E3BB462AA79B3300F34AA7 /* Aula_4_SwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aula_4_SwiftApp.swift; sourceTree = "<group>"; };
+		F3E3BB482AA79B3300F34AA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3E3BB4A2AA79B3400F34AA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3E3BB4D2AA79B3400F34AA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F3ECBE1F2AA64B9C00E8541D /* Frameworks */ = {
+		F3E3BB402AA79B3300F34AA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,46 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F3ECBE192AA64B9C00E8541D = {
+		F3E3BB3A2AA79B3300F34AA7 = {
 			isa = PBXGroup;
 			children = (
-				F3ECBE242AA64B9C00E8541D /* Aula-3-Swift */,
-				F3ECBE232AA64B9C00E8541D /* Products */,
+				F3E3BB452AA79B3300F34AA7 /* Aula-4-Swift */,
+				F3E3BB442AA79B3300F34AA7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F3ECBE232AA64B9C00E8541D /* Products */ = {
+		F3E3BB442AA79B3300F34AA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F3ECBE222AA64B9C00E8541D /* Aula-3-Swift.app */,
+				F3E3BB432AA79B3300F34AA7 /* Aula-4-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F3ECBE242AA64B9C00E8541D /* Aula-3-Swift */ = {
+		F3E3BB452AA79B3300F34AA7 /* Aula-4-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				F3ECBE252AA64B9C00E8541D /* Aula_3_SwiftApp.swift */,
-				F3ECBE272AA64B9C00E8541D /* ContentView.swift */,
-				F3ECBE432AA65F5E00E8541D /* D4.swift */,
-				F3ECBE452AA65F6800E8541D /* D5.swift */,
-				F3ECBE412AA655D100E8541D /* D3.swift */,
-				F3ECBE3F2AA655B700E8541D /* D2.swift */,
-				F3ECBE3D2AA654EB00E8541D /* D1.swift */,
-				F3ECBE492AA662CC00E8541D /* NavigationTStack.swift */,
-				F3ECBE4B2AA6632B00E8541D /* NavigationStackTela1.swift */,
-				F3ECBE4D2AA6685300E8541D /* NavigationStackTela2.swift */,
-				F3ECBE4F2AA6685E00E8541D /* NavigationStackTela3.swift */,
-				F3ECBE292AA64B9D00E8541D /* Assets.xcassets */,
-				F3ECBE2B2AA64B9D00E8541D /* Preview Content */,
+				F3E3BB462AA79B3300F34AA7 /* Aula_4_SwiftApp.swift */,
+				F3E3BB482AA79B3300F34AA7 /* ContentView.swift */,
+				F3E3BB4A2AA79B3400F34AA7 /* Assets.xcassets */,
+				F3E3BB4C2AA79B3400F34AA7 /* Preview Content */,
 			);
-			path = "Aula-3-Swift";
+			path = "Aula-4-Swift";
 			sourceTree = "<group>";
 		};
-		F3ECBE2B2AA64B9D00E8541D /* Preview Content */ = {
+		F3E3BB4C2AA79B3400F34AA7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				F3ECBE2C2AA64B9D00E8541D /* Preview Assets.xcassets */,
+				F3E3BB4D2AA79B3400F34AA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -97,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F3ECBE212AA64B9C00E8541D /* Aula-3-Swift */ = {
+		F3E3BB422AA79B3300F34AA7 /* Aula-4-Swift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F3ECBE302AA64B9D00E8541D /* Build configuration list for PBXNativeTarget "Aula-3-Swift" */;
+			buildConfigurationList = F3E3BB512AA79B3400F34AA7 /* Build configuration list for PBXNativeTarget "Aula-4-Swift" */;
 			buildPhases = (
-				F3ECBE1E2AA64B9C00E8541D /* Sources */,
-				F3ECBE1F2AA64B9C00E8541D /* Frameworks */,
-				F3ECBE202AA64B9C00E8541D /* Resources */,
+				F3E3BB3F2AA79B3300F34AA7 /* Sources */,
+				F3E3BB402AA79B3300F34AA7 /* Frameworks */,
+				F3E3BB412AA79B3300F34AA7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Aula-3-Swift";
-			productName = "Aula-3-Swift";
-			productReference = F3ECBE222AA64B9C00E8541D /* Aula-3-Swift.app */;
+			name = "Aula-4-Swift";
+			productName = "Aula-4-Swift";
+			productReference = F3E3BB432AA79B3300F34AA7 /* Aula-4-Swift.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F3ECBE1A2AA64B9C00E8541D /* Project object */ = {
+		F3E3BB3B2AA79B3300F34AA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					F3ECBE212AA64B9C00E8541D = {
+					F3E3BB422AA79B3300F34AA7 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = F3ECBE1D2AA64B9C00E8541D /* Build configuration list for PBXProject "Aula-3-Swift" */;
+			buildConfigurationList = F3E3BB3E2AA79B3300F34AA7 /* Build configuration list for PBXProject "Aula-4-Swift" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,51 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = F3ECBE192AA64B9C00E8541D;
-			productRefGroup = F3ECBE232AA64B9C00E8541D /* Products */;
+			mainGroup = F3E3BB3A2AA79B3300F34AA7;
+			productRefGroup = F3E3BB442AA79B3300F34AA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F3ECBE212AA64B9C00E8541D /* Aula-3-Swift */,
+				F3E3BB422AA79B3300F34AA7 /* Aula-4-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F3ECBE202AA64B9C00E8541D /* Resources */ = {
+		F3E3BB412AA79B3300F34AA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3ECBE2D2AA64B9D00E8541D /* Preview Assets.xcassets in Resources */,
-				F3ECBE2A2AA64B9D00E8541D /* Assets.xcassets in Resources */,
+				F3E3BB4E2AA79B3400F34AA7 /* Preview Assets.xcassets in Resources */,
+				F3E3BB4B2AA79B3400F34AA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F3ECBE1E2AA64B9C00E8541D /* Sources */ = {
+		F3E3BB3F2AA79B3300F34AA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3ECBE282AA64B9C00E8541D /* ContentView.swift in Sources */,
-				F3ECBE462AA65F6800E8541D /* D5.swift in Sources */,
-				F3ECBE402AA655B700E8541D /* D2.swift in Sources */,
-				F3ECBE4E2AA6685300E8541D /* NavigationStackTela2.swift in Sources */,
-				F3ECBE262AA64B9C00E8541D /* Aula_3_SwiftApp.swift in Sources */,
-				F3ECBE4C2AA6632B00E8541D /* NavigationStackTela1.swift in Sources */,
-				F3ECBE4A2AA662CC00E8541D /* NavigationTStack.swift in Sources */,
-				F3ECBE422AA655D100E8541D /* D3.swift in Sources */,
-				F3ECBE502AA6685E00E8541D /* NavigationStackTela3.swift in Sources */,
-				F3ECBE3E2AA654EB00E8541D /* D1.swift in Sources */,
-				F3ECBE442AA65F5E00E8541D /* D4.swift in Sources */,
+				F3E3BB492AA79B3300F34AA7 /* ContentView.swift in Sources */,
+				F3E3BB472AA79B3300F34AA7 /* Aula_4_SwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F3ECBE2E2AA64B9D00E8541D /* Debug */ = {
+		F3E3BB4F2AA79B3400F34AA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		F3ECBE2F2AA64B9D00E8541D /* Release */ = {
+		F3E3BB502AA79B3400F34AA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -295,14 +259,14 @@
 			};
 			name = Release;
 		};
-		F3ECBE312AA64B9D00E8541D /* Debug */ = {
+		F3E3BB522AA79B3400F34AA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Aula-3-Swift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Aula-4-Swift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -315,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aula3.app.Aula-3-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aula4.app.Aula-4-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		F3ECBE322AA64B9D00E8541D /* Release */ = {
+		F3E3BB532AA79B3400F34AA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Aula-3-Swift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Aula-4-Swift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -343,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aula3.app.Aula-3-Swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aula4.app.Aula-4-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -354,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F3ECBE1D2AA64B9C00E8541D /* Build configuration list for PBXProject "Aula-3-Swift" */ = {
+		F3E3BB3E2AA79B3300F34AA7 /* Build configuration list for PBXProject "Aula-4-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3ECBE2E2AA64B9D00E8541D /* Debug */,
-				F3ECBE2F2AA64B9D00E8541D /* Release */,
+				F3E3BB4F2AA79B3400F34AA7 /* Debug */,
+				F3E3BB502AA79B3400F34AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F3ECBE302AA64B9D00E8541D /* Build configuration list for PBXNativeTarget "Aula-3-Swift" */ = {
+		F3E3BB512AA79B3400F34AA7 /* Build configuration list for PBXNativeTarget "Aula-4-Swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F3ECBE312AA64B9D00E8541D /* Debug */,
-				F3ECBE322AA64B9D00E8541D /* Release */,
+				F3E3BB522AA79B3400F34AA7 /* Debug */,
+				F3E3BB532AA79B3400F34AA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F3ECBE1A2AA64B9C00E8541D /* Project object */;
+	rootObject = F3E3BB3B2AA79B3300F34AA7 /* Project object */;
 }

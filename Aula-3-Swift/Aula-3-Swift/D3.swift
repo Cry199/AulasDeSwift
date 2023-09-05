@@ -7,9 +7,40 @@
 
 import SwiftUI
 
+
+
+
 struct D3: View {
+    
+    let systemImages = ["gear", "clock", "eye","pencil","eye"]
+    let String = ["1","2","3","2","3","2","3","2","3","2","3",]
+    let String1 = ["A List Item","A Second List Item","A List Item","1","2","3","2","3","2","3","2","3","2","3","A List Item","A Second List Item","A List Item"]
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ScrollView
+        {
+            
+            VStack {
+                
+                ForEach(String, id: \.self) {
+                    imageName in Text(imageName)
+                        .font(.title)
+                }
+                
+                  ForEach(systemImages, id: \.self) { imageName in
+                      Image(systemName: imageName)
+                          .resizable(capInsets: EdgeInsets(), resizingMode: .stretch)
+                          .frame(width: 300.0, height: 300.0)
+                  }
+                
+                ForEach(String1, id: \.self) {
+                    imageName in Text(imageName)
+                        .font(.title)
+                }
+            }
+        }
+        
     }
 }
 
